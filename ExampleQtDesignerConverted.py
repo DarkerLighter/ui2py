@@ -10,6 +10,7 @@ Example file of converted QtDesigner class
 
 Simply add the Following line to your code:
 MainWindow.setWindowFlag(QtCore.Qt.FramelessWindowHint)
+MainWindow.showMaximized()
 """
 
 from PyQt5 import QtCore, QtGui, QtWidgets
