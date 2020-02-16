@@ -13,5 +13,9 @@ Might need to pip install in cmd(if using venv/PyCharm) the correct liberaries
 
 
 
+as for Fullscreen MainWindow, add these:(works on QtDesigner converted files from .ui to .py)
+MainWindow.setWindowFlag(QtCore.Qt.FramelessWindowHint) # Set window to fullscreen
+MainWindow.showMaximized()                              # Set Window to fullscreen
+
 
 Hi Saaed.
