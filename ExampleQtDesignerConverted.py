@@ -41,7 +41,7 @@ class Ui_MainWindow(object):
 
         # Added code start here (3 lines)
         MainWindow.setWindowFlag(QtCore.Qt.FramelessWindowHint) # Set window to fullscreen
-        MainWindow.showMaximized() # Set Window to full Screen
+        MainWindow.showMaximized() # Set Window to fullscreen
         self.pushButton.clicked.connect(QtWidgets.qApp.quit) # Set button to close program when clicked
         # Added code end here
 
