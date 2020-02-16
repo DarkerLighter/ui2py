@@ -1,3 +1,9 @@
+"""
+Solution to Fullscreen issue
+
+"""
+
+
 import sys
 from PyQt5 import QtCore
 from PyQt5 import QtWidgets
