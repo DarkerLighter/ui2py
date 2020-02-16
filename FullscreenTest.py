@@ -1,5 +1,9 @@
 """
-Solution to Fullscreen issue
+Solution to Fullscreen issue if MainUi is QWidget
+______________________________________________________________
+If class was converted from QtDesigner use this:
+MainWindow.setWindowFlag(QtCore.Qt.FramelessWindowHint)
+______________________________________________________________
 
 """
 
